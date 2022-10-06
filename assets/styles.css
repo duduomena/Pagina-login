@@ -15,19 +15,60 @@
     
 }
 
-#background_img{
-    
-    width: 100%;
-    height: 100vh;
-    
+/* Não permite a rolagem */
+.noscroll {
+	overflow: hidden
+}
+
+body {
+	color: #555555;
+	overflow-x: hidden;
+}
+
+img {
+	height: auto;
+}
+
+.hpanel {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    color: var(--color6);
+}
+
+.left {
+	left: -4%;
+	width: 59%;
+}
+
+.left .background {
+    background-color: var(--color1);
+}
+.right {
+	right: -4%;
+	width: 50%;
+}
+.right .background {
+    background-color: var(--color3);
+}
+.background {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 
 }
 
-#container{
-    display: flex;
-    align-items: center;
-    color: var(--color6);
- 
-    
-
+.content-area {
+	text-align: center;
+	margin: 20vh auto;
+	width: 350px
 }
