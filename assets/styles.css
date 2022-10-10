@@ -1,17 +1,18 @@
 :root{
-    --color1: rgb(31, 137, 223);
-    --color2: rgb(17, 0, 255);
-    --color3: rgb(1, 25, 90);
-    --color4: rgb(5, 119, 75);
-    --color5: rgb(0, 0, 0);
-    --color6: rgb(255,255,255);
+    --azulClaro: rgb(31, 137, 223);
+    --azulMedio: rgb(17, 0, 255);
+    --azulEscuro: rgb(1, 25, 90);
+    --verdeFolha: rgb(5, 119, 75);
+    --pretoEscuro: rgb(0, 0, 0);
+    --brancoClaro: rgb(255,255,255);
+	--cinzaClaro: #555555;
 }
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'GFS Didot', Arial, Helvetica, sans-serif;
-    background: var(--color5);
+    font-family: Constantia, Arial, Helvetica, sans-serif;
+    
     
 }
 
@@ -21,7 +22,7 @@
 }
 
 body {
-	color: #555555;
+	color: var(--cinzaClaro);
 	overflow-x: hidden;
 }
 
@@ -37,7 +38,7 @@ img {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-    color: var(--color6);
+    color: var(--brancoClaro);
 }
 
 .left {
@@ -46,14 +47,37 @@ img {
 }
 
 .left .background {
-    background-color: var(--color1);
+    background-color: var(--azulClaro);
+	width: 75%;
+	height: 75%;
+	top: 15vh;
+	left: 30vh;
+	border-radius: 40% 0 0 5%;
 }
+
+.pleft{
+	text-align: left;	
+	font-size: 23px;
+	
+}
+ 
+strong{
+	font-size: 40px;
+}
+
+.logo{
+	width: 50%;
+	margin: 20vh auto;
+	margin-left: 20vh;
+	margin-top: -10vh;
+}
+
 .right {
 	right: -4%;
 	width: 50%;
 }
 .right .background {
-    background-color: var(--color3);
+    background-color: var(--azulEscuro);
 }
 .background {
 	position: absolute;
@@ -68,7 +92,8 @@ img {
 }
 
 .content-area {
-	text-align: center;
-	margin: 20vh auto;
-	width: 350px
+	text-align: left;
+	margin: 10vh auto;
+	width: 460px;
+	
 }
