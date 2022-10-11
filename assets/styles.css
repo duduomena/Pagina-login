@@ -48,10 +48,10 @@ img {
 
 .left .background {
     background-color: var(--azulClaro);
-	width: 75%;
+	width: 67%;
 	height: 75%;
 	top: 15vh;
-	left: 30vh;
+	left: 39vh;
 	border-radius: 40% 0 0 5%;
 }
 
@@ -66,10 +66,18 @@ strong{
 }
 
 .logo{
-	width: 50%;
+	width: 60%;
 	margin: 20vh auto;
-	margin-left: 20vh;
-	margin-top: -10vh;
+	margin-left: 15vh;
+	margin-top: -8vh;
+	padding-left: 2rem;
+}
+
+.content-area-left {
+	text-align: left;
+	margin: 10vh auto;
+	width: 460px;
+	padding-left: 7rem;
 }
 
 .right {
@@ -78,6 +86,12 @@ strong{
 }
 .right .background {
     background-color: var(--azulEscuro);
+	width: 67%;
+	height: 75%;
+	top: 15vh;
+	border-radius: 0% 5% 40% 0%;
+
+	
 }
 .background {
 	position: absolute;
@@ -91,9 +105,29 @@ strong{
 
 }
 
-.content-area {
+.content-area-right {
 	text-align: left;
 	margin: 10vh auto;
 	width: 460px;
+	padding-left: 7rem;
+	margin-top: 12vh;
+	font-size: 25px;
+	margin-right: 40vh;
+	line-height: 40px;
+}
+
+.login{
+	width: 30%;
+	height: 8%;
+	font-size: 30px;
+	background: var(--azulClaro);
+	margin-left: 25vh ;
+	margin-top: -5vh;
+	font-weight: bold;
 	
+
+}
+
+.pages{
+	font-size: 17px;
 }
