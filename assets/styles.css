@@ -6,6 +6,7 @@
     --pretoEscuro: rgb(0, 0, 0);
     --brancoClaro: rgb(255,255,255);
 	--cinzaClaro: #555555;
+	--vermelhoClaro: rgb( 255,0,0);
 }
 
 *{
@@ -16,16 +17,17 @@
     
 }
 
-/* Não permite a rolagem */
-.noscroll {
-	overflow: hidden
-}
 
 body {
 	color: var(--cinzaClaro);
 	overflow-x: hidden;
+	overflow: hidden;
 }
+.wallpaper{
+	width: 100%;
+	height: 100%;
 
+}
 img {
 	height: auto;
 }
@@ -124,10 +126,31 @@ strong{
 	margin-left: 25vh ;
 	margin-top: -5vh;
 	font-weight: bold;
-	
-
+	cursor: pointer;
+	border-radius: 5%;
+	color: var(--brancoClaro);
 }
 
+h2{
+	padding-bottom: 2rem;
+}
+input{
+	width: 60%;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid var(--cinzaClaro);
+    outline: none;
+    font-weight: 600;
+    color: var(--azulEscuro);
+    padding-left: 3px;
+}
+
+a{
+	color:var(--vermelhoClaro)
+}
 .pages{
 	font-size: 17px;
+	margin-top: 1rem;
+
+
 }
