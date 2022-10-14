@@ -130,7 +130,20 @@ strong{
 	border-radius: 5%;
 	color: var(--brancoClaro);
 }
-
+.back{
+	width: 5rem;
+	height: 1.5rem;
+	position: relative;
+	top: 1.5rem;
+	left: 1.5rem;
+	border-radius: 5%;
+	background-color: var(--azulClaro);
+	color: var(--brancoClaro);
+	font-weight: bold;
+	border-bottom: hidden;
+	
+	
+}
 h2{
 	padding-bottom: 2rem;
 }
@@ -157,7 +170,7 @@ a{
 
 .social{
 	cursor: pointer;
-	margin-left: 3rem;
+	margin-left: 4rem;
 	margin-top: 2rem;
 	margin-bottom: -3rem;
 	
@@ -168,3 +181,4 @@ a{
 	margin-bottom: 0.5rem;
 	margin-top: 0.5rem;
 }
+
