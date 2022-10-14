@@ -154,3 +154,17 @@ a{
 
 
 }
+
+.social{
+	cursor: pointer;
+	margin-left: 3rem;
+	margin-top: 2rem;
+	margin-bottom: -3rem;
+	
+}
+
+.rec{
+	font-size: 22px;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
