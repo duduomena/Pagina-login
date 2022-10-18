@@ -141,6 +141,7 @@ strong{
 	color: var(--brancoClaro);
 	font-weight: bold;
 	border-bottom: hidden;
+	cursor: pointer;
 	
 	
 }
@@ -170,7 +171,7 @@ a{
 
 .social{
 	cursor: pointer;
-	margin-left: 4rem;
+	margin-left: 5rem;
 	margin-top: 2rem;
 	margin-bottom: -3rem;
 	
@@ -182,3 +183,6 @@ a{
 	margin-top: 0.5rem;
 }
 
+.asocial{
+	color: var(--azulEscuro);
+}
